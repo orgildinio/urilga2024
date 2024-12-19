@@ -69,7 +69,7 @@ export default function Page({ params }) {
             <div className="btn-primary relative">
               <Image
                   src={logo}
-                  width={100}
+                  width={80}
                   alt="logo"
                   className="absolute top-[5px] left-[10px] z-10"
               />
