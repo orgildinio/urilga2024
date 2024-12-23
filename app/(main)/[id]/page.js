@@ -69,9 +69,9 @@ export default function Page({ params }) {
             <div className="btn-primary relative">
               <Image
                   src={logo}
-                  width={80}
+                  // width={80}
                   alt="logo"
-                  className="absolute top-[5px] left-[10px] z-10"
+                  className="absolute top-[5px] left-[10px] z-10 md:w-[80px] sm:w-[50px] w-[50px]"
               />
               <div className="btn-bg"></div>
               <div className="btn-border"></div>
